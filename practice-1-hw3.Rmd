@@ -1,0 +1,22 @@
+---
+title: "Practice-1-hw3"
+author: "Andrew Chen"
+date: "2023-02-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+
+life5060 = read.csv("https://raw.githubusercontent.com/yumouqiu/DS202-Spring2023/main/Lecture1_collaborative-environment/data/gapminder-5060.csv")
+
+```
+
+Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set “gapminder-5060”.
+
+```{r}
+life5060_US = life5060[life5060$country == "United States",]
+ggplot(aes(x = lifeExp, y = gdpPercap), data = life5060_US) + geom_line()
+```
+
