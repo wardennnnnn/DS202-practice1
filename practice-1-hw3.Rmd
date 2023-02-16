@@ -23,12 +23,25 @@ link_3 = ("temp")
 
 name = c("Andrew Chen", "name2", "name3")
 link = c(link_1, link_2, link_3)
-table = data.frame(name, link)
+
+#number of successful pull requests you made, 
+#and the github repository to which you requested a change
+numPullReqMade = c(1,0,0)
+repoRequested = c("vvrin", "repoReq2", "repoReq3")
+
+#number of pull requests you accepted, 
+#and the github repository from which you accepted
+numPullReqAccepted = c(0,0,0)
+repoRequestedFrom = c("repoReqFrom1", "repoReqFrom2", "repoReqFrom3")
+
+table = data.frame(name, link, numPullReqMade, repoRequested, numPullReqAccepted, repoRequestedFrom)
 
 table
 ```
+## Three Tips
 
 
+## Graphs
 Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set “gapminder-5060”.
 
 ```{r}

@@ -367,13 +367,34 @@ link_3 = (&quot;temp&quot;)
 
 name = c(&quot;Andrew Chen&quot;, &quot;name2&quot;, &quot;name3&quot;)
 link = c(link_1, link_2, link_3)
-table = data.frame(name, link)
+
+#number of successful pull requests you made, 
+#and the github repository to which you requested a change
+numPullReqMade = c(1,0,0)
+repoRequested = c(&quot;vvrin&quot;, &quot;repoReq2&quot;, &quot;repoReq3&quot;)
+
+#number of pull requests you accepted, 
+#and the github repository from which you accepted
+numPullReqAccepted = c(0,0,0)
+repoRequestedFrom = c(&quot;repoReqFrom1&quot;, &quot;repoReqFrom2&quot;, &quot;repoReqFrom3&quot;)
+
+table = data.frame(name, link, numPullReqMade, repoRequested, numPullReqAccepted, repoRequestedFrom)
 
 table</code></pre>
-<pre><code>##          name                           link
-## 1 Andrew Chen https://github.com/wardennnnnn
-## 2       name2                           temp
-## 3       name3                           temp</code></pre>
+<pre><code>##          name                           link numPullReqMade repoRequested
+## 1 Andrew Chen https://github.com/wardennnnnn              1         vvrin
+## 2       name2                           temp              0      repoReq2
+## 3       name3                           temp              0      repoReq3
+##   numPullReqAccepted repoRequestedFrom
+## 1                  0      repoReqFrom1
+## 2                  0      repoReqFrom2
+## 3                  0      repoReqFrom3</code></pre>
+</div>
+<div id="three-tips" class="section level2">
+<h2>Three Tips</h2>
+</div>
+<div id="graphs" class="section level2">
+<h2>Graphs</h2>
 <p>Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed
 data) and Australia by RMarkdown based on the data set
 “gapminder-5060”.</p>
