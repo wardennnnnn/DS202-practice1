@@ -13,10 +13,28 @@ life5060 = read.csv("https://raw.githubusercontent.com/yumouqiu/DS202-Spring2023
 
 ```
 
+## GitHub Links
+```{r}
+library(knitr)
+
+link_1 = ("https://github.com/wardennnnnn")
+link_2 = ("temp")
+link_3 = ("temp")
+
+name = c("Andrew Chen", "name2", "name3")
+link = c(link_1, link_2, link_3)
+table = data.frame(name, link)
+
+table
+```
+
+
 Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set “gapminder-5060”.
 
 ```{r}
 life5060_US = life5060[life5060$country == "United States",]
 ggplot(aes(x = lifeExp, y = gdpPercap), data = life5060_US) + geom_line()
+
+kable(life5060_US[1:5,])
 ```
 
