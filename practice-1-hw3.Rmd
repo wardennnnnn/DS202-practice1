@@ -13,6 +13,8 @@ life5060 = read.csv("https://raw.githubusercontent.com/yumouqiu/DS202-Spring2023
 
 ```
 
+![caption here](img/test.jpg)
+
 ## GitHub Links
 ```{r}
 library(knitr)
