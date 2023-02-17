@@ -23,13 +23,13 @@ link_1 = ("https://github.com/wardennnnnn")
 link_2 = ("temp")
 link_3 = ("temp")
 
-name = c("Andrew Chen", "name2", "name3")
+name = c("Andrew Chen", "Vrindha Vegiraju", "Kennedy Wendl")
 link = c(link_1, link_2, link_3)
 
 #number of successful pull requests you made, 
 #and the github repository to which you requested a change
 numPullReqMade = c(1,0,0)
-repoRequested = c("vvrin", "repoReq2", "repoReq3")
+repoRequested = c("vvrin", "wardennnnnn", "repoReq3")
 
 #number of pull requests you accepted, 
 #and the github repository from which you accepted
