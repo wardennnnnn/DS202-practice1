@@ -20,7 +20,7 @@ life5060 = read.csv("https://raw.githubusercontent.com/yumouqiu/DS202-Spring2023
 library(knitr)
 
 link_1 = ("https://github.com/wardennnnnn")
-link_2 = ("temp")
+link_2 = ("https://github.com/vvrin")
 link_3 = ("temp")
 
 name = c("Andrew Chen", "Vrindha Vegiraju", "Kennedy Wendl")
