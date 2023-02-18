@@ -41,9 +41,9 @@ table = data.frame(name, link, numPullReqMade, repoRequested, numPullReqAccepted
 table
 ```
 ## Three Tips
-1.
-2.
-3.
+1. Add comments within your push/pull requests. Not only does this help your team members understand the changes you made to the file but, you'll know what you added. 
+2. Create descriptive names for repositories and files. By doing so you know exactly what the file was designed for and won't have trouble distinguishing between projects. 
+3. Pull frequently. By pulling frequently you can avoid issues that may appear as a result of multiple changes.
 
 ## Graphs
 Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set “gapminder-5060”.
@@ -54,6 +54,9 @@ ggplot(aes(x = lifeExp, y = gdpPercap), data = life5060_US) + geom_line()
 
 life5060_Australia = life5060[life5060$country == "Australia",]
 ggplot(aes(x = lifeExp, y = gdpPercap), data = life5060_Australia) + geom_line()
+
+life5060_Canada = life5060[life5060$country == "Canada",]
+ggplot(aes(x = lifeExp, y = gdpPercap), data = life5060_Canada) + geom_line()
 
 ```
 
