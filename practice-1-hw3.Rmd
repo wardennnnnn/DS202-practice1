@@ -21,7 +21,7 @@ library(knitr)
 
 link_1 = ("https://github.com/wardennnnnn")
 link_2 = ("https://github.com/vvrin")
-link_3 = ("temp")
+link_3 = ("https://github.com/KennedyWendl")
 
 name = c("Andrew Chen", "Vrindha Vegiraju", "Kennedy Wendl")
 link = c(link_1, link_2, link_3)
